@@ -28,7 +28,7 @@ destinations = [
         "price": 40000,
         "duration": "6 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1505731132164-cca7f5c4c96a"
+        "image": "https://images.unsplash.com/photo-1505731132164-cca7f5c4c"
     },
     {
         "id": 4,
