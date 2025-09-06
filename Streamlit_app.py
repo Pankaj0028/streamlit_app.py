@@ -15,125 +15,126 @@ import datetime
 destinations = [
     {
         "id": 1,
-        "place": "Goa",
-        "price": 15000,
+        "place": "Goa, India",
+        "price": 12000,
         "duration": "5 Days",
         "type": "Beach",
         "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
     },
     {
         "id": 2,
-        "place": "Manali",
-        "price": 12000,
+        "place": "Manali, India",
+        "price": 15000,
         "duration": "6 Days",
         "type": "Hill Station",
-        "image": "https://surl.li/duqeuy"
+        "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33"
     },
     {
         "id": 3,
-        "place": "Dubai",
-        "price": 55000,
+        "place": "Dubai, UAE",
+        "price": 45000,
         "duration": "7 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1504274066651-8d31a536b11a"
+        "image": "https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba"
     },
     {
         "id": 4,
-        "place": "Kerala",
-        "price": 18000,
-        "duration": "5 Days",
-        "type": "Backwaters",
-        "image": "https://images.unsplash.com/photo-1507525428034-7b724efc8f32"
+        "place": "Paris, France",
+        "price": 70000,
+        "duration": "7 Days",
+        "type": "International",
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
     },
     {
         "id": 5,
-        "place": "Jaipur",
-        "price": 14000,
-        "duration": "4 Days",
-        "type": "Heritage",
-        "image": "https://images.unsplash.com/photo-1603262110263-fb0e401e0d9d"
+        "place": "Bali, Indonesia",
+        "price": 50000,
+        "duration": "6 Days",
+        "type": "Beach",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
     },
     {
         "id": 6,
-        "place": "Shimla",
-        "price": 13000,
-        "duration": "5 Days",
-        "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada"
+        "place": "New York, USA",
+        "price": 85000,
+        "duration": "8 Days",
+        "type": "International",
+        "image": "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca"
     },
     {
         "id": 7,
+        "place": "Tokyo, Japan",
+        "price": 90000,
+        "duration": "7 Days",
+        "type": "International",
+        "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c"
+    },
+    {
+        "id": 8,
+        "place": "Kerala, India",
+        "price": 18000,
+        "duration": "5 Days",
+        "type": "Backwaters",
+        "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3"
+    },
+    {
+        "id": 9,
+        "place": "Switzerland",
+        "price": 120000,
+        "duration": "10 Days",
+        "type": "International",
+        "image": "https://images.unsplash.com/photo-1508264165352-258a6b00a1a8"
+    },
+    {
+        "id": 10,
+        "place": "Leh-Ladakh, India",
+        "price": 25000,
+        "duration": "7 Days",
+        "type": "Adventure",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+        "id": 11,
+        "place": "Maldives",
+        "price": 95000,
+        "duration": "6 Days",
+        "type": "Beach",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+        "id": 12,
         "place": "Singapore",
-        "price": 60000,
+        "price": 65000,
         "duration": "6 Days",
         "type": "International",
         "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
     },
     {
-        "id": 8,
-        "place": "Andaman",
-        "price": 35000,
-        "duration": "7 Days",
-        "type": "Island",
-        "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159"
-    },
-    {
-        "id": 9,
-        "place": "Paris",
-        "price": 85000,
-        "duration": "8 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
-    },
-    {
-        "id": 10,
-        "place": "Kashmir",
-        "price": 20000,
-        "duration": "6 Days",
-        "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1603782921746-7f0a798c2e6b"
-    },
-    {
-        "id": 11,
-        "place": "Bali",
-        "price": 45000,
-        "duration": "6 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
-    },
-    {
-        "id": 12,
-        "place": "Rajasthan",
-        "price": 25000,
-        "duration": "7 Days",
-        "type": "Desert",
-        "image": "https://images.unsplash.com/photo-1589977997772-4f49a67c8cf8"
-    },
-    {
         "id": 13,
         "place": "Thailand",
         "price": 40000,
-        "duration": "6 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1526481280698-8fccd6a8cf98"
+        "duration": "7 Days",
+        "type": "Beach",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
     },
     {
         "id": 14,
-        "place": "Ladakh",
-        "price": 28000,
-        "duration": "8 Days",
-        "type": "Adventure",
-        "image": "https://images.unsplash.com/photo-1610534508540-9f7baf5120a9"
+        "place": "London, UK",
+        "price": 80000,
+        "duration": "7 Days",
+        "type": "International",
+        "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
     },
     {
         "id": 15,
-        "place": "Maldives",
-        "price": 75000,
+        "place": "Rajasthan, India",
+        "price": 22000,
         "duration": "6 Days",
-        "type": "Island",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        "type": "Desert",
+        "image": "https://images.unsplash.com/photo-1589381460141-2ab2d9f55f30"
     }
 ]
+
 
 
 
