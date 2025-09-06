@@ -5,6 +5,13 @@ import datetime
 # --------------------------
 # Sample Destination Data
 # --------------------------
+import streamlit as st
+import pandas as pd
+import datetime
+
+# --------------------------
+# Sample Destination Data with Valid Image URLs
+# --------------------------
 destinations = [
     {
         "id": 1,
@@ -12,7 +19,7 @@ destinations = [
         "price": 15000,
         "duration": "5 Days",
         "type": "Beach",
-        "image": "https://surl.lu/bmpcuy"
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
     },
     {
         "id": 2,
@@ -20,7 +27,7 @@ destinations = [
         "price": 12000,
         "duration": "6 Days",
         "type": "Hill Station",
-        "image": "https://surl.li/sseyjn"
+        "image": "https://images.unsplash.com/photo-1603782921746-7f0a798c2e6b"
     },
     {
         "id": 3,
@@ -28,7 +35,7 @@ destinations = [
         "price": 55000,
         "duration": "7 Days",
         "type": "International",
-        "image": "https://surl.lu/inbuzo"
+        "image": "https://images.unsplash.com/photo-1504274066651-8d31a536b11a"
     },
     {
         "id": 4,
@@ -36,7 +43,7 @@ destinations = [
         "price": 18000,
         "duration": "5 Days",
         "type": "Backwaters",
-        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
+        "image": "https://images.unsplash.com/photo-1507525428034-7b724efc8f32"
     },
     {
         "id": 5,
@@ -52,7 +59,7 @@ destinations = [
         "price": 13000,
         "duration": "5 Days",
         "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1587757258230-bf82f95ef40d"
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada"
     },
     {
         "id": 7,
@@ -60,7 +67,7 @@ destinations = [
         "price": 60000,
         "duration": "6 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1549887534-4c3b3e4d8a97"
+        "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
     },
     {
         "id": 8,
@@ -68,7 +75,7 @@ destinations = [
         "price": 35000,
         "duration": "7 Days",
         "type": "Island",
-        "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090"
+        "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159"
     },
     {
         "id": 9,
@@ -76,7 +83,7 @@ destinations = [
         "price": 85000,
         "duration": "8 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1522098543979-ffc7f79d4a3f"
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
     },
     {
         "id": 10,
@@ -108,7 +115,7 @@ destinations = [
         "price": 40000,
         "duration": "6 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        "image": "https://images.unsplash.com/photo-1526481280698-8fccd6a8cf98"
     },
     {
         "id": 14,
@@ -127,6 +134,7 @@ destinations = [
         "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
     }
 ]
+
 
 
 df = pd.DataFrame(destinations)
