@@ -12,7 +12,7 @@ destinations = [
         "price": 15000,
         "duration": "5 Days",
         "type": "Beach",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        "image": "https://surl.lu/bmpcuy"
     },
     {
         "id": 2,
@@ -20,7 +20,7 @@ destinations = [
         "price": 12000,
         "duration": "6 Days",
         "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1605647540924-852290f2e2d0"
+        "image": "https://surl.li/sseyjn"
     },
     {
         "id": 3,
@@ -28,7 +28,7 @@ destinations = [
         "price": 55000,
         "duration": "7 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1505731132164-cca7f5a19a3c"
+        "image": "https://surl.lu/inbuzo"
     },
     {
         "id": 4,
