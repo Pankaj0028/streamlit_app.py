@@ -5,17 +5,10 @@ import datetime
 # --------------------------
 # Sample Destination Data
 # --------------------------
-import streamlit as st
-import pandas as pd
-import datetime
-
-# --------------------------
-# Sample Destination Data with Valid Image URLs
-# --------------------------
 destinations = [
     {
         "id": 1,
-        "place": "Goa, India",
+        "place": "Goa",
         "price": 12000,
         "duration": "5 Days",
         "type": "Beach",
@@ -23,120 +16,29 @@ destinations = [
     },
     {
         "id": 2,
-        "place": "Manali, India",
+        "place": "Manali",
         "price": 15000,
-        "duration": "6 Days",
+        "duration": "7 Days",
         "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33"
+        "image": "https://images.unsplash.com/photo-1606925797300-3a5c9d8c2a63"
     },
     {
         "id": 3,
-        "place": "Dubai, UAE",
-        "price": 45000,
-        "duration": "7 Days",
+        "place": "Dubai",
+        "price": 40000,
+        "duration": "6 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba"
+        "image": "https://images.unsplash.com/photo-1505731132164-cca7f5c4c96a"
     },
     {
         "id": 4,
-        "place": "Paris, France",
-        "price": 70000,
-        "duration": "7 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
-    },
-    {
-        "id": 5,
-        "place": "Bali, Indonesia",
-        "price": 50000,
-        "duration": "6 Days",
-        "type": "Beach",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-    },
-    {
-        "id": 6,
-        "place": "New York, USA",
-        "price": 85000,
-        "duration": "8 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca"
-    },
-    {
-        "id": 7,
-        "place": "Tokyo, Japan",
-        "price": 90000,
-        "duration": "7 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c"
-    },
-    {
-        "id": 8,
-        "place": "Kerala, India",
+        "place": "Kerala",
         "price": 18000,
-        "duration": "5 Days",
+        "duration": "6 Days",
         "type": "Backwaters",
-        "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3"
+        "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090"
     },
-    {
-        "id": 9,
-        "place": "Switzerland",
-        "price": 120000,
-        "duration": "10 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1508264165352-258a6b00a1a8"
-    },
-    {
-        "id": 10,
-        "place": "Leh-Ladakh, India",
-        "price": 25000,
-        "duration": "7 Days",
-        "type": "Adventure",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
-    },
-    {
-        "id": 11,
-        "place": "Maldives",
-        "price": 95000,
-        "duration": "6 Days",
-        "type": "Beach",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-    },
-    {
-        "id": 12,
-        "place": "Singapore",
-        "price": 65000,
-        "duration": "6 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
-    },
-    {
-        "id": 13,
-        "place": "Thailand",
-        "price": 40000,
-        "duration": "7 Days",
-        "type": "Beach",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-    },
-    {
-        "id": 14,
-        "place": "London, UK",
-        "price": 80000,
-        "duration": "7 Days",
-        "type": "International",
-        "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
-    },
-    {
-        "id": 15,
-        "place": "Rajasthan, India",
-        "price": 22000,
-        "duration": "6 Days",
-        "type": "Desert",
-        "image": "https://images.unsplash.com/photo-1589381460141-2ab2d9f55f30"
-    }
 ]
-
-
-
 
 df = pd.DataFrame(destinations)
 
