@@ -20,7 +20,7 @@ destinations = [
         "price": 15000,
         "duration": "7 Days",
         "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1606925797300-3a5c9d8c2a63"
+        "image": "https://unsplash.com/s/photos/manali"
     },
     {
         "id": 3,
@@ -28,7 +28,7 @@ destinations = [
         "price": 40000,
         "duration": "6 Days",
         "type": "International",
-        "image": "https://images.unsplash.com/photo-1505731132164-cca7f5c4c96a"
+        "image": "https://unsplash.com/s/photos/dubai"
     },
     {
         "id": 4,
@@ -36,7 +36,7 @@ destinations = [
         "price": 18000,
         "duration": "6 Days",
         "type": "Backwaters",
-        "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090"
+        "image": "https://unsplash.com/s/photos/kerala"
     },
 ]
 
