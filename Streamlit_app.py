@@ -27,7 +27,7 @@ destinations = [
         "price": 12000,
         "duration": "6 Days",
         "type": "Hill Station",
-        "image": "https://images.unsplash.com/photo-1603782921746-7f0a798c2e6b"
+        "image": "https://surl.li/duqeuy"
     },
     {
         "id": 3,
